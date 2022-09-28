@@ -7,11 +7,13 @@ body{
     width: auto;
     height: auto;
     margin: auto;
+    min-height: 1080px;
 }
 header{
     width: 100%;
     min-height: 190px;
     text-align: center;
+    margin: auto;
 }
 header h1{
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.438);
@@ -19,7 +21,7 @@ header h1{
 }
 main{
     background-color: rgb(31, 31, 31);
-    width: 1700px;
+    width: 1800px;
     padding: 20px;
     margin: auto;
     border-radius: 10px;
@@ -27,13 +29,11 @@ main{
 }
 h2{
     color: #D71C23;
-    font-size: 40px;
-}
-h3{
-    color: #ee585d;
+    font-size: 35px;
 }
 .caixa{
     padding: 10px;
+    margin: auto;
 }
 a{
     color: #D71C23;
